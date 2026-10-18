@@ -43,8 +43,3 @@ python case_01_impacting_plate.py
 
 The case scripts specify particle spacing, fluid/solid parameters, boundary conditions, time step, and output folders. They may generate VTK files and figures; long simulations can be computationally expensive. No fresh solver runs or numerical validation were performed when preparing this documentation.
 
-## Verification and limitations
-
-The recorded benchmark figures are transcribed from the **August 2026 computational engineering case-study report**, not recalculated from these scripts. The report documents model-specific parameter choices and comparison plots. The source scripts do not currently include those finished plot images or standalone saved tip-history datasets, so the README does not present a reconstructed comparison curve.
-
-The case-study report is available in the author's research materials, but is not redistributed here. Publication of research figures and third-party benchmark images should respect the applicable author and publisher permissions.
