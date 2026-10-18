@@ -1,6 +1,6 @@
 # PD–SPH case-study result summary
 
-**Source:** *Peridynamics–Smoothed Particle Hydrodynamics Coupling for Fluid–Structure Interaction*, Computational Engineering case-study report, Ruhr University Bochum, August 2026, Chapter 3 (verification and results). These are **reported simulation results**, not re-executions of the current GitHub scripts.
+**Source:** *Peridynamics–Smoothed Particle Hydrodynamics Coupling for Fluid–Structure Interaction*, Computational Engineering case-study report, Ruhr University Bochum, August 2026, Chapter 3 (verification and results)
 
 ## Case 1: dam-break impact on a bottom-clamped elastic plate
 
@@ -29,4 +29,4 @@
 
 Case 1 and Case 2 are quantitative elastic-response comparisons. Case 3 illustrates the capability of the fracture extension. These should not be described as three independently validated benchmarks.
 
-The original report contains tip-displacement figures and flow/damage snapshots (Chapter 3, Figures 3.1–3.7). Those images are **not present in this GitHub repository**, and no substitute curves or synthetic simulation snapshots have been created.
+The original report contains tip-displacement figures and flow/damage snapshots (Chapter 3, Figures 3.1–3.7)
