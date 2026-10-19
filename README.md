@@ -21,6 +21,28 @@ This is a computational engineering case-study implementation developed in Pytho
 | [case_03_notched_dam_break.py](case_03_notched_dam_break.py) | Dam-break loading on a notched plate | Fracture demonstration |
 | [pdsph_functions.py](pdsph_functions.py) | Shared SPH, PD, coupling and output routines | Core implementation |
 
+## Simulation animations
+
+These looping previews are compressed from the case-study simulation recordings. They illustrate the particle motion, fluid pressure field and structural response; quantitative comparisons and validation limitations are discussed below.
+
+### Case 1 — Dam-break impact on a bottom-clamped plate
+
+![Case 1: SPH fluid impacting a bottom-clamped PD plate](assets/animations/case-01-impacting-plate.webp)
+
+A collapsing water column interacts with the deformable vertical plate.
+
+### Case 2 — Flow beneath a top-clamped plate
+
+![Case 2: water pressure and flow around a top-clamped flexible plate](assets/animations/case-02-through-plate.webp)
+
+Pressure-colored SPH particles visualize the free-surface flow and bending of the plate.
+
+### Case 3 — Notched plate and progressive damage
+
+![Case 3: dam-break loading and deformation of a notched PD plate](assets/animations/case-03-notched-dam-break.webp)
+
+The simulation illustrates deformation and damage under dam-break loading; this case is qualitative rather than an independently validated fracture benchmark.
+
 ## Results from the accompanying case-study report
 
 The independently documented report compares the first two elastic cases with results presented by Huang et al. The third case demonstrates progressive damage but has **no independent fracture-validation benchmark**.
