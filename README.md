@@ -41,5 +41,5 @@ Install Python with NumPy, SciPy, JAX, and Matplotlib. Run from the repository r
 python case_01_impacting_plate.py
 ```
 
-The case scripts specify particle spacing, fluid/solid parameters, boundary conditions, time step, and output folders. They may generate VTK files and figures; long simulations can be computationally expensive. No fresh solver runs or numerical validation were performed when preparing this documentation.
+The case scripts specify particle spacing, fluid/solid parameters, boundary conditions, time step, and output folders.
 
