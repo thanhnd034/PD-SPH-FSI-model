@@ -33,6 +33,25 @@ The independently documented report compares the first two elastic cases with re
 
 See [results/case_study_summary.md](results/case_study_summary.md) for provenance, limitations, and additional observations.
 
+
+## Additional visuals from the case-study report and presentation
+
+The diagrams and charts below are **new renderings of the model workflow and numerical findings reported in the author's August 2026 report/slides**, not original simulation frames or digitized continuous histories.
+
+### Coupled numerical algorithm
+
+![PD–SPH coupling diagram](figures/coupling_workflow.svg)
+
+### Elastic tip-displacement peak comparisons
+
+For **Case 1**, the present model peak is 47.4 mm at about 0.25 s; Huang et al. report peaks over a **42–48 mm range** (the main reference PD–SPH comparison is described in the report as about 9% lower). For **Case 2**, the observed peak magnitude is about 51 mm and the reference PD–SPH peak about 52 mm, both near 0.16 s. These are selected report values, not complete displacement curves.
+
+### Notched-plate damage milestones
+
+![PD–SPH notched plate damage timeline](figures/notched_fracture_milestones.svg)
+
+These milestones are taken from report §3.3. Case 3 is a qualitative fracture demonstration and is **not** an independently validated fracture benchmark. For the actual fluid-pressure and deformation frames, consult Figures 3.2, 3.3, 3.5 and 3.7 of the case-study report and slides 14, 16 and 18 of the research presentation.
+
 ## Running a case
 
 Install Python with NumPy, SciPy, JAX, and Matplotlib. Run from the repository root, for example:
